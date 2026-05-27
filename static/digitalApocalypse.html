@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Digital Apocalypse</title>
+</head>
+
+<body>
+
+<div class="content">
+
+  <!-- HEADER -->
+  <div class="header">
+
+    <div class="terminal-bar">
+
+      <div class="terminal-buttons">
+        <span class="terminal-button close"></span>
+        <span class="terminal-button minimize"></span>
+        <span class="terminal-button maximize"></span>
+      </div>
+
+      <div class="terminal-title">
+        global_network_collapse.log
+      </div>
+
+    </div>
+
+    <div class="critical-alert">
+      <span class="alert-icon">⚠️</span>
+      <span class="alert-text">GLOBAL NETWORK FAILURE DETECTED</span>
+      <span class="alert-time">[ 13.5.2025 14:58:11 ]</span>
+    </div>
+
+  </div>
+
+  <!-- GRID LAYOUT -->
+  <div class="dashboard-grid">
+
+    <!-- LEFT PANEL -->
+    <div class="left-panel">
+
+      <!-- SYSTEM STATUS -->
+      <div class="systems-section">
+
+        <h3>CRITICAL SYSTEM STATUS</h3>
+
+        <ul class="services">
+          <li class="critical-item">
+            Global Connectivity
+            <span class="status status-fatal">OFFLINE</span>
+          </li>
+
+          <li>
+            Backbone Servers
+            <span class="status status-warning">UNRESPONSIVE</span>
+          </li>
+
+          <li>
+            Emergency Protocol
+            <span class="status status-info">INITIALIZING</span>
+          </li>
+        </ul>
+
+      </div>
+
+      <!-- MAP -->
+      <div class="map-section">
+
+        <h3>GLOBAL OUTAGE MAP</h3>
+
+        <div class="world-map">
+
+          <div class="grid-lines"></div>
+
+          <svg
+            class="world-svg"
+            viewBox="0 0 1000 500"
+            preserveAspectRatio="xMidYMid meet"
+          >
+
+            <path class="continent north-america" d="M151,91c0,0,9-16,12-19s20-9,20-9l9-10l5-10l7-5l19,5l14,5c0,0,11,8,14,5c3-3,13-14,13-14l10-5l15,5c0,0,4,10,10,10s16-5,16-5l20,10c0,0,15,25,15,30s-10,30-10,30l-20,25c0,0-15,5-20,15s-2,45-2,45l-10,10l-45,10c0,0-20,0-25,5s-31,12-31,12l-49,5l-28-10l-5-15c0,0-20-15-15-25s-10-25-10-25l-20-20l-5-25c0,0,25-10,25-15s15-10,15-10L151,91z" />
+
+            <path class="continent south-america" d="M235,285c0,0,25-10,30-15s5-25,5-25l10-5l30,10c0,0,16,10,20,5s44-5,44-5c0,0,1,20,5,25s35,25,35,25l-5,15c0,0-5,60-10,65s-25,45-25,45l-10,20l-25,10l-20-5l-20-30c0,0-20-5-20-15s-30-25-30-25c0,0-20,0-20-10s-15-35-15-35L235,285z" />
+
+            <path class="continent europe" d="M500,91l-10,5l-30,10h-30l-15,5v15l-10,15c0,0,0,15,5,15s30,0,30,0l5,10c0,0,30,10,35,5s25-10,25-10h30l15-10c0,0,5-15,10-15s15-10,15-10l-10-10l-15-5c0,0-10-10-15-10S500,91,500,91z" />
+
+            <path class="continent africa" d="M455,171c0,0,20-10,25-10s25,5,25,5l20,5l25-5l15,10v15l20,10c0,0,5,15,5,20s0,30,0,30l-10,10l-5,30c0,0-20,20-15,30c5,10-10,25-10,25c0,0-35,15-40,15s-25-15-25-15l-15-5l-10-15l-30-10l-15-20v-35l-10-25c0,0,0-10,5-15s25-10,25-10L455,171z" />
+
+            <path class="continent asia" d="M586,81c0,0,25-5,30-5s44,5,44,5l40,15h30l40,5c0,0,30,25,30,30s-10,25-10,25c0,0-5,15-15,15s-40,0-40,0c0,0-20,20-15,25s20,30,20,30c0,0-55,35-65,35s-50,5-50,5l-10,15l-25,5l-5-15l-15-15c0,0-5-15-15-15s-35,5-35,5l-25-10c0,0-10-20-5-25s30-15,30-15l10-30c0,0-35-10-30-20s5-40,5-40l20-15l20-5H586z" />
+
+            <path class="continent oceania" d="M726,300c0,0,20-15,25-15s35,5,35,5l30,15c0,0,15,15,15,20s5,35,5,35l-15,20l-30,5l-10-5l-35-10l-10-15l-5-35L726,300z" />
+
+          </svg>
+
+        </div>
+
+        <div class="region-status">
+
+          <div class="region north-america">
+            <span class="region-name">North America</span>
+            <span class="region-status-indicator">ONLINE</span>
+          </div>
+
+          <div class="region europe">
+            <span class="region-name">Europe</span>
+            <span class="region-status-indicator">ONLINE</span>
+          </div>
+
+          <div class="region asia">
+            <span class="region-name">Asia</span>
+            <span class="region-status-indicator">ONLINE</span>
+          </div>
+
+          <div class="region south-america">
+            <span class="region-name">South America</span>
+            <span class="region-status-indicator">ONLINE</span>
+          </div>
+
+          <div class="region africa">
+            <span class="region-name">Africa</span>
+            <span class="region-status-indicator">ONLINE</span>
+          </div>
+
+          <div class="region oceania">
+            <span class="region-name">Oceania</span>
+            <span class="region-status-indicator">ONLINE</span>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- RECONNECT -->
+      <div class="reconnect-attempt">
+
+        <span class="reconnect-text">
+          ATTEMPTING TO RECONNECT
+        </span>
+
+        <div class="reconnect-progress">
+          <div class="reconnect-bar"></div>
+        </div>
+
+        <span class="reconnect-status">
+          CONNECTING...
+        </span>
+
+      </div>
+
+    </div>
+
+    <!-- RIGHT PANEL -->
+    <div class="right-panel">
+
+      <div class="timeline-section">
+
+        <h2 class="title-glitch">
+          <span class="tech-accent"></span>
+          INCIDENT TIMELINE
+          <span class="tech-accent"></span>
+        </h2>
+
+        <ul class="events">
+
+          <li class="dead">
+            <div class="marker"></div>
+
+            <div class="event-content">
+
+              <div class="event-header">
+                CONNECTION LOST
+                <span class="timestamp">
+                  [ 13.5.2025 16:42:17 ]
+                </span>
+              </div>
+
+              <p class="system-message">
+                SYSTEM: All backbone connections terminated
+              </p>
+
+              <p class="system-message">
+                SYSTEM: Unable to establish routing paths
+              </p>
+
+              <p class="system-message">
+                SYSTEM: Catastrophic packet loss detected
+              </p>
+
+              <p class="dev-note">
+                NOTE: Social media reports of "Internet Apocalypse"
+                trending before comms lost
+              </p>
+
+            </div>
+          </li>
+
+          <li class="error">
+
+            <div class="marker"></div>
+
+            <div class="event-content">
+
+              <div class="event-header">
+                Cascading Service Failure
+
+                <span class="timestamp">
+                  [ 13.5.2025 16:23:45 ]
+                </span>
+              </div>
+
+              <p class="system-message">
+                SYSTEM: DNS resolution failure across 87% of nodes
+              </p>
+
+              <p class="system-message">
+                SYSTEM: Error code 0xFF33A107 - IRRECOVERABLE
+              </p>
+
+              <p class="dev-note">
+                NOTE: Massive outage spreading globally
+              </p>
+
+            </div>
+
+          </li>
+
+          <li class="warning">
+
+            <div class="marker"></div>
+
+            <div class="event-content">
+
+              <div class="event-header">
+                Network Instability Detected
+
+                <span class="timestamp">
+                  [ 13.5.2025 16:12:05 ]
+                </span>
+              </div>
+
+              <p>
+                - Multiple backbone routes experiencing packet loss >60%
+              </p>
+
+              <p>
+                - Latency spikes detected across all major exchange points
+              </p>
+
+              <p class="dev-note">
+                NOTE: Instagram posts showing people panicking
+              </p>
+
+            </div>
+
+          </li>
+
+          <li class="warning">
+
+            <div class="marker"></div>
+
+            <div class="event-content">
+
+              <div class="event-header">
+                Emergency Protocol Initialized
+
+                <span class="timestamp">
+                  [ 13.5.2025 16:01:19 ]
+                </span>
+              </div>
+
+              <p>
+                - Safety measures engaged to protect infrastructure
+              </p>
+
+              <p>
+                - Isolating core routers from potential infection vectors
+              </p>
+
+              <p class="dev-note">
+                NOTE: Reddit threads claiming global internet collapse
+              </p>
+
+            </div>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
