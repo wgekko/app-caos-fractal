@@ -1,4 +1,4 @@
-# 🌌 Dashboard Analítico Avanzado: Dinámica No Lineal, Teoría del Caos y Econometría
+# Dashboard Analítico Avanzado: Dinámica No Lineal, Teoría del Caos y Econometría
 
 Bienvenido al ecosistema interactivo de análisis predictivo y estructural. Esta aplicación, construida sobre **Streamlit**, representa un puente entre la econometría clásica y la física de los sistemas complejos. 
 
