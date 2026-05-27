@@ -58,7 +58,17 @@ El proyecto está desarrollado enteramente en Python y requiere las siguientes l
 
 Sigue estos pasos para desplegar el ecosistema en tu entorno local:
 
-1. **Clonar el repositorio:**   
+1. **Clonar el repositorio:**
+
+   git clone [https://github.com/wgekko/app-caos-fractal.git]
+
+video demo
+
+
+
+
+
+
 
    git clone [https://github.com/tu-usuario/tu-repositorio.git](https://github.com/tu-usuario/tu-repositorio.git)
    
