@@ -66,9 +66,11 @@ video demo
 
 
 
+https://github.com/user-attachments/assets/33845385-2169-43f8-bdcd-8dfe2a2f2e57
 
 
 
 
-   git clone [https://github.com/tu-usuario/tu-repositorio.git](https://github.com/tu-usuario/tu-repositorio.git)
+
+   
    
